@@ -1,0 +1,71 @@
+body{
+    background: linear-gradient(-90deg,#c850c0,#4158d0);
+}
+header{
+    margin: 10px 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.title{
+    margin-left: 40px;
+    font-size: 40px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
+header a{
+    padding: 20px 20px;
+    color: white;
+    font-size: 20px;
+}
+header a:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transition: 0.3s ease;
+    color:white;
+}
+.wholecontainer{
+    margin:0px 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    min-height: 10vh;
+    padding:20px 20px;
+    border-radius: 10px;
+}
+.submitted-memes{
+    color: #c850c0;
+    padding: 20px 20px;
+    font-size: 25px;
+}
+#container{
+    width: 98%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: 2px solid black;
+    width: 100%;
+    border-radius: 20px;
+    margin: 20px 20px;
+}
+.cardName,
+.cardCaption{
+    padding-left: 20px;
+}
+.image{
+    width: 94%;
+    align-self: center;
+    padding:10px 10px;
+}

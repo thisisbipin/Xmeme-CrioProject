@@ -1,0 +1,100 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(-90deg,#c850c0,#4158d0);
+}
+header{
+    width: 100%;
+    margin: 10px 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.title{
+    margin-left: 40px;
+    font-size: 40px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
+header a{
+    padding: 20px 20px;
+    color: white;
+    font-size: 20px;
+}
+header a:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transition: 0.3s ease;
+    color:white;
+}
+.wholecontainer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width:450px;
+    height: 500px;
+    margin:0px 10px;
+    justify-content: center;
+    min-height: 10vh;
+    padding:20px 20px;
+    border-radius: 10px;
+}
+.submit-your-meme{
+    color: #c850c0;
+    font-size: 20px;
+}
+.wrapper{
+    width: 400px;
+    padding: 30px;
+}
+.wrapper .input-data{
+    height: 40px;
+    width: 100%;
+    position: relative;
+} 
+.wrapper .input-data input{
+    height: 100%;
+    width: 100%;
+    font-size: 17px;
+    border: none;
+    border-bottom: 2px solid silver;
+}
+.wrapper .input-data input:required{
+    outline: none;
+}
+.wrapper .input-data input:focus ~label,
+.wrapper .input-data input:valid ~label{
+    transform: translateY(-20px);
+}
+.wrapper .input-data label{
+    position: absolute;
+    bottom:10px;
+    left: 0;
+    color: gray;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.submit-button{ 
+    align-self: center;
+    width: 50%;
+    color: #c850c0;
+    text-align: center;
+    font-size: 25px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: none;
+}
+.submit-button:hover{
+    background: linear-gradient(-90deg,#c850c0,#4158d0);
+    color: white;
+    transition: all 0.2s ease;
+}
